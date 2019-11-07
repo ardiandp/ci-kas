@@ -104,6 +104,20 @@
           ?>
         <li><a href="<?= base_url('admin/rekapdata'); ?>"><i class="fa fa-file-pdf-o"></i> <span>Rekapitulasi KAS</span></a></li>
         <li><a href="<?= base_url('admin/tentangkas'); ?>"><i class="fa fa-gear"></i> <span>Tentang KAS</span></a></li>
+
+         <li class="treeview">
+          <a href="#">
+            <i class="fa fa-area-chart"></i>
+            <span>KAS</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="<?= base_url('admin/kasmasuk'); ?>"><i class="fa fa-dollar"></i> KAS MASUK</a></li>
+            <li><a href="<?= base_url('admin/kaskeluar'); ?>"><i class="fa fa-dollar"></i> KAS KELUAR</a></li>
+          </ul>
+        </li>
       </ul>
     </section>
     <!-- /.sidebar -->
