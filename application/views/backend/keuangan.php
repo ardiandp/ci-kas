@@ -34,7 +34,7 @@
             <div class="icon">
               <i class="ion ion-social-usd"></i>
             </div>
-            <a href="<?= base_url('admin/kasmasuk') ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?= base_url('keuangan/masuk') ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -49,7 +49,7 @@
             <div class="icon">
               <i class="ion ion-social-usd"></i>
             </div>
-            <a href="<?= base_url('admin/kaskeluar') ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?= base_url('keuangan/keluar') ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
@@ -64,7 +64,7 @@
             <div class="icon">
               <i class="ion ion-social-usd"></i>
             </div>
-            <a href="<?= base_url('admin/rekapdata') ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            <a href="<?= base_url('keuangan/rekapdata') ?>" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
           </div>
         </div>
         <!-- ./col -->
